@@ -1,0 +1,242 @@
+# GSY Flutter Demo — 示例索引
+
+本索引用于快速查找 `lib/main.dart` 中路由对应的示例源码文件，便于阅读与练习。
+
+说明：列表项格式为：示例标题 — 源码路径。
+
+---
+
+## 全部示例（路由标题 → 源码文件）
+
+- 文本输入框简单的 Controller — [lib/widget/controller_demo_page.dart](lib/widget/controller_demo_page.dart)
+	- 简短描述：展示 `TextEditingController` 的用法与监听输入变化，适合入门状态与表单处理。
+- 实现控件圆角不同组合 — [lib/widget/clip_demo_page.dart](lib/widget/clip_demo_page.dart)
+	- 简短描述：演示 `ClipRRect`/自定义裁剪等圆角实现与组合用法，练习布局裁剪。
+- 列表滑动监听 — [lib/widget/scroll_listener_demo_page.dart](lib/widget/scroll_listener_demo_page.dart)
+	- 简短描述：展示如何监听 `ScrollController`、实现滚动监听与响应（懒加载/动画触发）。
+- 滑动到指定位置 — [lib/widget/scroll_to_index_demo_page.dart](lib/widget/scroll_to_index_demo_page.dart)
+	- 简短描述：使用 `scroll_to_index` 插件或自定义方法实现列表滚动到指定索引。
+- 滑动到指定位置2 — [lib/widget/scroll_to_index_demo_page2.dart](lib/widget/scroll_to_index_demo_page2.dart)
+	- 简短描述：滑动定位的进阶示例，处理复杂列表布局与 offset 计算。
+- 展示渐变带边框的文本 — [lib/widget/gradient_text_demo_page.dart](lib/widget/gradient_text_demo_page.dart)
+	- 简短描述：演示文本渐变、描边与带边框效果，学习 `ShaderMask` 与 `Paint` 用法。
+- Transform 效果展示 — [lib/widget/transform_demo_page.dart](lib/widget/transform_demo_page.dart)
+	- 简短描述：练习 `Transform` 矩阵变换、旋转、缩放与平移的组合使用。
+- 计算另类文本行间距展示 — [lib/widget/text_line_height_demo_page.dart](lib/widget/text_line_height_demo_page.dart)
+	- 简短描述：讨论文本行高与布局计算，适用于自定义文本渲染需求。
+- 简单上下刷新 — [lib/widget/refrsh_demo_page.dart](lib/widget/refrsh_demo_page.dart)
+	- 简短描述：基础下拉刷新与上拉加载示例，理解 `RefreshIndicator` 或自定义刷新控件。
+- 简单上下刷新2 — [lib/widget/refrsh_demo_page2.dart](lib/widget/refrsh_demo_page2.dart)
+	- 简短描述：刷新交互的增强示例，处理更多状态与动画效果。
+- 简单上下刷新3 — [lib/widget/custom_pull/refrsh_demo_page3.dart](lib/widget/custom_pull/refrsh_demo_page3.dart)
+	- 简短描述：自定义下拉刷新实现，练习手势与动画控制。
+- 通过绝对定位布局 — [lib/widget/positioned_demo_page.dart](lib/widget/positioned_demo_page.dart)
+	- 简短描述：使用 `Stack` + `Positioned` 实现绝对定位布局样例。
+- 气泡提示框 — [lib/widget/bubble/bubble_demo_page.dart](lib/widget/bubble/bubble_demo_page.dart)
+	- 简短描述：实现自定义气泡提示框，包含绘制和定位逻辑。
+- Tag效果展示 — [lib/widget/tag_demo_page.dart](lib/widget/tag_demo_page.dart)
+	- 简短描述：显示标签样式、颜色与布局，适合小组件复用练习。
+- 共享元素跳转效果 — [lib/widget/honor_demo_page.dart](lib/widget/honor_demo_page.dart)
+	- 简短描述：演示 Hero 动画或共享元素跳转效果，学习路由动画。
+- 滑动验证 — [lib/widget/silder_verify_page.dart](lib/widget/silder_verify_page.dart)
+	- 简短描述：实现滑动验证控件（滑块）并处理验证逻辑。
+- warpContent实现 — [lib/widget/wrap_content_page.dart](lib/widget/wrap_content_page.dart)
+	- 简短描述：实现自适应换行布局，练习 `Wrap` 与_child_ 尺寸计算。
+- 状态栏颜色修改（仅 App） — [lib/widget/statusbar_demo_page.dart](lib/widget/statusbar_demo_page.dart)
+	- 简短描述：演示如何在 App 中设置状态栏颜色与亮度适配。
+- 键盘弹出与监听（仅 App） — [lib/widget/keyboard_demo_page.dart](lib/widget/keyboard_demo_page.dart)
+	- 简短描述：处理键盘弹出、监听高度变化与布局自适应。
+- 控件动画组合展示（旋转加放大圆） — [lib/widget/anima_demo_page.dart](lib/widget/anima_demo_page.dart)
+	- 简短描述：示范动画组合（旋转、缩放、平移）与 AnimationController 用法。
+- 控件展开动画效果 — [lib/widget/anima_demo_page2.dart](lib/widget/anima_demo_page2.dart)
+	- 简短描述：实现展开/收起动画，常见于折叠面板与详情视图。
+- 全局悬浮按键效果 — [lib/widget/floating_touch_demo_page.dart](lib/widget/floating_touch_demo_page.dart)
+	- 简短描述：实现可拖拽的全局悬浮按钮（持久化位置，响应点击）。
+- 全局设置字体大小 — [lib/widget/text_size_demo_page.dart](lib/widget/text_size_demo_page.dart)
+	- 简短描述：展示如何全局管理字体大小与适配（Settings/Provider 示例）。
+- 旧版实现富文本 — [lib/widget/rich_text_demo_page.dart](lib/widget/rich_text_demo_page.dart)
+	- 简短描述：旧方法实现富文本效果，便于对比不同方案。
+- 官方实现富文本 — [lib/widget/rich_text_demo_page2.dart](lib/widget/rich_text_demo_page2.dart)
+	- 简短描述：使用官方 `RichText`/`TextSpan` 实现富文本，推荐学习。
+- 第三方 viewpager 封装实现 — [lib/widget/viewpager_demo_page.dart](lib/widget/viewpager_demo_page.dart)
+	- 简短描述：使用第三方库实现 viewpager 效果（轮播/翻页）。
+- 列表滑动过程控件停靠效果 — [lib/widget/sliver_list_demo_page.dart](lib/widget/sliver_list_demo_page.dart)
+	- 简短描述：使用 Sliver 实现滚动中控件固定/停靠的视觉效果。
+- 验证码输入框 — [lib/widget/verification_code_input_demo_page.dart](lib/widget/verification_code_input_demo_page.dart)
+	- 简短描述：实现一组输入框的验证码样式与粘贴/自动聚焦处理。
+- 验证码输入框2 — [lib/widget/verification_code_input_demo_page2.dart](lib/widget/verification_code_input_demo_page2.dart)
+	- 简短描述：验证码输入的进阶样式与键盘处理优化。
+- 自定义布局展示效果 — [lib/widget/custom_multi_render_demo_page.dart](lib/widget/custom_multi_render_demo_page.dart)
+	- 简短描述：示范自定义 RenderObject/布局的实现思路与应用场景。
+- 自定义布局实现云词图展示 — [lib/widget/cloud/cloud_demo_page.dart](lib/widget/cloud/cloud_demo_page.dart)
+	- 简短描述：通过自定义布局或绘制实现云词/词云效果。
+- 列表滑动停靠 （Stick） — [lib/widget/stick/stick_demo_page.dart](lib/widget/stick/stick_demo_page.dart)
+	- 简短描述：演示列表中某个 item 在滑动中的停靠展开行为。
+- 列表滑动停靠 （Stick）+ 展开收回 — [lib/widget/stick/stick_demo_page2.dart](lib/widget/stick/stick_demo_page2.dart)
+	- 简短描述：增强版停靠示例，包含展开/收起交互。
+- 列表滑动停靠效果2 （Stick） — [lib/widget/sliver_stick_demo_page.dart](lib/widget/sliver_stick_demo_page.dart)
+	- 简短描述：基于 Sliver 的停靠效果实现，适合复杂列表场景。
+- 键盘顶起展示（仅 App） — [lib/widget/input_bottom_demo_page.dart](lib/widget/input_bottom_demo_page.dart)
+	- 简短描述：模拟输入框被键盘顶起的布局调整处理。
+- Blur 高斯模糊效果 — [lib/widget/blur_demo_page.dart](lib/widget/blur_demo_page.dart)
+	- 简短描述：使用 `BackdropFilter`/Shader 实现模糊视觉效果。
+- 控件动画变形效果 — [lib/widget/animation_container_demo_page.dart](lib/widget/animation_container_demo_page.dart)
+	- 简短描述：使用 `AnimatedContainer` 等便捷动画 API 实现平滑过渡。
+- 时钟动画绘制展示 — [lib/widget/tick_click_demo_page.dart](lib/widget/tick_click_demo_page.dart)
+	- 简短描述：Canvas 绘制与定时器驱动的时钟动画示例。
+- 按键切换动画效果 — [lib/widget/anima_demo_page4.dart](lib/widget/anima_demo_page4.dart)
+	- 简短描述：示范通过按键触发的视图切换动画。
+- 列表滑动过程 item 停靠动画效果 — [lib/widget/list_anim/list_anim_demo_page.dart](lib/widget/list_anim/list_anim_demo_page.dart)
+	- 简短描述：列表项随滚动触发的停靠动画，提升视觉交互感。
+- 列表滑动过程 item 停靠动画效果2 — [lib/widget/list_anim_2/list_anim_demo_page.dart](lib/widget/list_anim_2/list_anim_demo_page.dart)
+	- 简短描述：第二版的列表动画实现，展示更多动画细节控制。
+- 下弹筛选展示效果 — [lib/widget/drop_select_menu/drop_select_demo_page.dart](lib/widget/drop_select_menu/drop_select_demo_page.dart)
+	- 简短描述：实现下弹筛选菜单的动画与多选交互。
+- 文本弹出动画效果 — [lib/widget/anima_demo_page5.dart](lib/widget/anima_demo_page5.dart)
+	- 简短描述：文字弹出/强调动画的实现示例。
+- 强大的自定义滑动与停靠结合展示 — [lib/widget/custom_sliver/scroll_header_demo_page.dart](lib/widget/custom_sliver/scroll_header_demo_page.dart)
+	- 简短描述：结合自定义 Sliver 实现复杂的头部联动与停靠逻辑。
+- 自定义列表内sliver渲染顺序 — [lib/widget/custom_viewport/custom_viewport_page.dart](lib/widget/custom_viewport/custom_viewport_page.dart)
+	- 简短描述：演示自定义 viewport 与渲染顺序的调控技巧。
+- 点击弹出动画提示 — [lib/widget/anim_tip_demo_page.dart](lib/widget/anim_tip_demo_page.dart)
+	- 简短描述：轻量级点击反馈动画与提示弹窗实现。
+- 列表停靠展开+回到当前头部 — [lib/widget/stick_sliver_list_demo_page.dart](lib/widget/stick_sliver_list_demo_page.dart)
+	- 简短描述：结合 Sliver 的停靠展开并支持回到当前头部的交互。
+- 使用 overflow 处理图片 — [lib/widget/overflow_image_page.dart](lib/widget/overflow_image_page.dart)
+	- 简短描述：用 `OverflowBox`/裁剪技巧处理图片超出容器的显示。
+- 展示 Align 排布控件 — [lib/widget/align_demo_page.dart](lib/widget/align_demo_page.dart)
+	- 简短描述：介绍 `Align`、`FractionallySizedBox` 等常见排列方法。
+- 通过不同尺寸计算方式展示比例 — [lib/widget/card_item_page.dart](lib/widget/card_item_page.dart)
+	- 简短描述：讲解不同尺寸计算方式下组件比例布局的实现。
+- 多列表+顶部Tab效果展示 — [lib/widget/sliver_tab_demo_page.dart](lib/widget/sliver_tab_demo_page.dart)
+	- 简短描述：组合多个列表与顶部 Tab 联动的典型实现。
+- 多列表+顶部Tab效果展示2 — [lib/widget/sliver_tab_demo_page2.dart](lib/widget/sliver_tab_demo_page2.dart)
+	- 简短描述：第二版 Tab 列表联动示例，包含更多 edge-case 处理。
+- 多列表+顶部Tab效果展示3 — [lib/widget/sliver_tab/sliver_tab_demo_page3.dart](lib/widget/sliver_tab/sliver_tab_demo_page3.dart)
+	- 简短描述：三列或多 Tab 高级联动与懒加载策略示例。
+- 仿真书本翻页动画（仅APP） — [lib/widget/book_page/book_page.dart](lib/widget/book_page/book_page.dart)
+	- 简短描述：实现书本翻页的动画与页面渲染，偏平台特性。
+- 粒子动画效果 — [lib/widget/particle/particle_page.dart](lib/widget/particle/particle_page.dart)
+	- 简短描述：粒子系统基础实现，适合学习粒子发射与生命周期管理。
+- 动画背景效果 — [lib/widget/anim_bg_demo_page.dart](lib/widget/anim_bg_demo_page.dart)
+	- 简短描述：背景动画的组合与性能优化示例。
+- 手势效果 — [lib/widget/matrix_custom_painter_page.dart](lib/widget/matrix_custom_painter_page.dart)
+	- 简短描述：结合 Matrix 变换与自定义绘制实现复杂手势交互。
+- 一个有趣的底部跟随和停靠例子 — [lib/widget/scroll_inner_content_demo_page.dart](lib/widget/scroll_inner_content_demo_page.dart)
+	- 简短描述：底部跟随面板与内部滚动内容的联动实现。
+- 一个有趣的圆形选择器 — [lib/widget/bottom_anim_nav_page.dart](lib/widget/bottom_anim_nav_page.dart)
+	- 简短描述：圆形选择器/底部导航交互与动画。
+- 一个类似探探堆叠卡片例子 — [lib/widget/index_stack_drag_card_demo_page.dart](lib/widget/index_stack_drag_card_demo_page.dart)
+	- 简短描述：堆叠卡片拖拽与投掷逻辑，练习手势与动画。
+- 一个类似探探堆叠卡片例子2 — [lib/widget/index_stack_drag_card_demo_page2.dart](lib/widget/index_stack_drag_card_demo_page2.dart)
+	- 简短描述：堆叠卡片的另一个实现，包含更多动画细节。
+- 动画按键例子 — [lib/widget/anim_button/anim_button_demo_page.dart](lib/widget/anim_button/anim_button_demo_page.dart)
+	- 简短描述：自定义动画按钮的制作与交互反馈。
+- 类似QQ发送图片的动画 — [lib/widget/anim_progress_img_demo_page.dart](lib/widget/anim_progress_img_demo_page.dart)
+	- 简短描述：图片发送过程中 progress 动画效果的模拟实现。
+- 类似探探扫描的动画效果 — [lib/widget/anim_scan_demo_page.dart](lib/widget/anim_scan_demo_page.dart)
+	- 简短描述：扫描样式动画与遮罩效果实现。
+- 圆弧形的 SeekBar（仅APP） — [lib/widget/arc_seek_bar_demo_page.dart](lib/widget/arc_seek_bar_demo_page.dart)
+	- 简短描述：自定义弧形进度条/SeekBar 的交互实现。
+- 一个国外友人很惊艳的动画效果 — [lib/widget/anim_bubble_gum.dart](lib/widget/anim_bubble_gum.dart)
+	- 简短描述：视觉上有趣的自定义动画示例，学习动画组合与调试。
+- 纯 Canvas 绘制闹钟 — [lib/widget/canvas_click_demo_page.dart](lib/widget/canvas_click_demo_page.dart)
+	- 简短描述：Canvas 自绘时钟示例，学习绘制与坐标变换。
+- 类似 boss 直聘我的页面联动效果 — [lib/widget/link_sliver/link_sliver_demo_page.dart](lib/widget/link_sliver/link_sliver_demo_page.dart)
+	- 简短描述：复杂列表与头部联动的 Sliver 实现模式。
+- 结合 Matrix 的拖拽 — [lib/widget/drag_img_demo_page.dart](lib/widget/drag_img_demo_page.dart)
+	- 简短描述：矩阵变换结合拖拽实现图片的移动/缩放/旋转交互。
+- 彩色进度条 — [lib/widget/color_progress_demo_page.dart](lib/widget/color_progress_demo_page.dart)
+	- 简短描述：颜色渐变进度条的绘制与动画。
+- 第三方的动画字体 — [lib/widget/anim_text_demo_page.dart](lib/widget/anim_text_demo_page.dart)
+	- 简短描述：使用第三方库制作吸引人的文本动画。
+- 首尾添加数据不会抖动 — [lib/widget/chat_list_scroll_demo_page.dart](lib/widget/chat_list_scroll_demo_page.dart)
+	- 简短描述：实现聊天列表在头尾插入数据时避免跳动的技巧。
+- 首尾添加数据不会抖动2 — [lib/widget/chat_list_scroll_demo_page_2.dart](lib/widget/chat_list_scroll_demo_page_2.dart)
+	- 简短描述：更完善的聊天列表滚动稳定性实现。
+- 测试路由嵌套 — [lib/widget/route_demo_page.dart](lib/widget/route_demo_page.dart)
+	- 简短描述：演示嵌套路由与导航栈管理的示例。
+- 测试 canvas 阴影 — [lib/widget/shader_canvas_demo_page.dart](lib/widget/shader_canvas_demo_page.dart)
+	- 简短描述：Canvas/Shader 阴影效果与性能考量示例。
+- 控件动画切换效果 — [lib/widget/anim_switch_layout_demo_page.dart](lib/widget/anim_switch_layout_demo_page.dart)
+	- 简短描述：不同布局间动画切换的实践与性能优化。
+- ListView 嵌套 ViewPager 解决斜着滑动问题 — [lib/widget/vp_list_demo_page.dart](lib/widget/vp_list_demo_page.dart)
+	- 简短描述：解决滚动冲突的常用手段和示例代码。
+- 垂直  ViewPager 嵌套垂直 ListView — [lib/widget/vp_list_demo_page.dart](lib/widget/vp_list_demo_page.dart)
+	- 简短描述：同上，展示多种嵌套场景和处理办法。
+- 垂直  ListView 嵌套垂直  ViewPager — [lib/widget/vp_list_demo_page.dart](lib/widget/vp_list_demo_page.dart)
+	- 简短描述：同上，适合不同嵌套方向的比较学习。
+- 垂直  ListView 联动  ListView — [lib/widget/vp_list_demo_page.dart](lib/widget/vp_list_demo_page.dart)
+	- 简短描述：ListView 与 ListView 之间联动的实现示例。
+- 3D 透视卡片 — [lib/widget/card_perspective_demo_page.dart](lib/widget/card_perspective_demo_page.dart)
+	- 简短描述：实现 3D 透视卡片效果，学习 Matrix 与视差。
+- 3D 卡片旋转 — [lib/widget/card_3d_demo_page.dart](lib/widget/card_3d_demo_page.dart)
+	- 简短描述：更复杂的 3D 卡片旋转动画示例。
+- 硬核 3D 卡片旋转 — [lib/widget/card_real_3d_demo_page.dart](lib/widget/card_real_3d_demo_page.dart)
+	- 简短描述：高阶 3D 效果与渲染优化技巧。
+- 3D Dash — [lib/widget/dash_3d_demo_page.dart](lib/widget/dash_3d_demo_page.dart)
+	- 简短描述：3D 场景交互与动画示例。
+- 展示 canvas transform — [lib/widget/transform_canvas_demo_page.dart](lib/widget/transform_canvas_demo_page.dart)
+	- 简短描述：在 Canvas 上做变换与复合绘制的示例。
+- rive 掘金 logo — [lib/widget/anim_juejin_logo_demo_page.dart](lib/widget/anim_juejin_logo_demo_page.dart)
+	- 简短描述：使用 `rive` 渲染与控制动画的示例。
+- 掘金 3d logo — [lib/widget/juejin_3d_logo_demo_page.dart](lib/widget/juejin_3d_logo_demo_page.dart)
+	- 简短描述：3D Logo 的实现与渲染技巧。
+- 掘金更 3d logo — [lib/widget/juejin_3d_box_logo_demo_page.dart](lib/widget/juejin_3d_box_logo_demo_page.dart)
+	- 简短描述：更复杂的 3D logo 效果示例。
+- png shadow — [lib/widget/png_shadow_demo_page.dart](lib/widget/png_shadow_demo_page.dart)
+	- 简短描述：为 PNG 图片生成阴影的实现技巧。
+- path 路径 png 效果 — [lib/widget/custom_shader_path_demo_page.dart](lib/widget/custom_shader_path_demo_page.dart)
+	- 简短描述：结合路径与 shader 实现特殊 PNG 展示效果。
+- 列表联动 BottomSheet 效果 — [lib/widget/list_link_bottomsheet_demo_page.dart](lib/widget/list_link_bottomsheet_demo_page.dart)
+	- 简短描述：列表与 BottomSheet 的联动实现，常见筛选/展示场景。
+- DraggableSheet 的 stick 效果 — [lib/widget/demo_draggable_sheet_stick_page.dart](lib/widget/demo_draggable_sheet_stick_page.dart)
+	- 简短描述：演示 `DraggableScrollableSheet` 的停靠与联动用法。
+- 异步调用的顺序执行 — [lib/widget/async_to_sync_call_page.dart](lib/widget/async_to_sync_call_page.dart)
+	- 简短描述：示例如何将异步任务按顺序串行执行并处理结果。
+- 点击爆炸的五角星（ChatGPT 生成代码） — [lib/widget/star_bomb_button_page.dart](lib/widget/star_bomb_button_page.dart)
+	- 简短描述：点击触发展示粒子爆炸的交互动画示例。
+- 有趣画廊 — [lib/widget/photo_gallery_demo_page.dart](lib/widget/photo_gallery_demo_page.dart)
+	- 简短描述：实现图片浏览/缩放与过渡动画的画廊组件。
+- 有趣的文本撕裂动画 — [lib/widget/tear_text_demo_page.dart](lib/widget/tear_text_demo_page.dart)
+	- 简短描述：文本撕裂动画特效，适合视觉特效学习。
+- 自适应横竖列表 — [lib/widget/un_bounded_listview.dart](lib/widget/un_bounded_listview.dart)
+	- 简短描述：实现横竖布局自适应的列表组件。
+- PageView嵌套PageView — [lib/widget/pageview_in_pageview_demo_page.dart](lib/widget/pageview_in_pageview_demo_page.dart)
+	- 简短描述：处理嵌套 PageView 滚动冲突与手势分发。
+- 手势密码 — [lib/widget/gesture_password/gesture_password_demo_page.dart](lib/widget/gesture_password/gesture_password_demo_page.dart)
+	- 简短描述：实现手势密码输入与验证交互示例。
+- link scroll — [lib/widget/link_scroll_page.dart](lib/widget/link_scroll_page.dart)
+	- 简短描述：实现锚点跳转/目录联动的滚动效果。
+- glass — [lib/widget/glass_demo_page.dart](lib/widget/glass_demo_page.dart)
+	- 简短描述：玻璃质感 UI 实现（模糊 + 透明 + 高光）。
+- liquid glass — [lib/widget/liquid_glass_demo.dart](lib/widget/liquid_glass_demo.dart)
+	- 简短描述：基于 shader 的液态玻璃效果示例。
+- liquid glass 2 — [lib/widget/liquid_glass_demo2.dart](lib/widget/liquid_glass_demo2.dart)
+	- 简短描述：液体玻璃效果的变体与参数控制示例。
+- 粒子动画 — [lib/widget/attractor_page.dart](lib/widget/attractor_page.dart)
+	- 简短描述：吸引子/粒子系统的基本实现与交互。
+- 斐波那契球体动画 — [lib/widget/fibonacci_sphere_page.dart](lib/widget/fibonacci_sphere_page.dart)
+	- 简短描述：基于斐波那契数列布置的球体粒子动画。
+- 星云动画 — [lib/widget/galaxy_scene_page.dart](lib/widget/galaxy_scene_page.dart)
+	- 简短描述：星云/星系场景的粒子渲染示例。
+- 霓虹滑块，100%高亮 — [lib/widget/neon_slider_page.dart](lib/widget/neon_slider_page.dart)
+	- 简短描述：霓虹风格滑块控件与渐变高亮效果。
+- Radial lines — [lib/widget/radial_lines_page.dart](lib/widget/radial_lines_page.dart)
+	- 简短描述：放射线动画与绘制示例。
+- 炫酷爆炸粒子 — [lib/widget/boom_particle_page.dart](lib/widget/boom_particle_page.dart)
+	- 简短描述：粒子爆炸特效与生命周期管理。
+- Black hole — [lib/widget/black_hole_simulation_page.dart](lib/widget/black_hole_simulation_page.dart)
+	- 简短描述：黑洞模拟的物理与视觉效果示例。
+- 流体太极 — [lib/widget/stream_taichi_page.dart](lib/widget/stream_taichi_page.dart)
+	- 简短描述：流体/太极粒子交互与渲染。
+- 黑洞流体 — [lib/widget/black_hole_page.dart](lib/widget/black_hole_page.dart)
+	- 简短描述：黑洞相关的流体粒子表现。
+- 太极粒子 — [lib/widget/taichi_page.dart](lib/widget/taichi_page.dart)
+	- 简短描述：太极图案的粒子化实现。
+- 破坏杀·罗针 — [lib/widget/akaza_page.dart](lib/widget/akaza_page.dart)
+	- 简短描述：自定义视觉效果/互动样例（命名风格特殊）。
+- 骚气滑动列表 — [lib/widget/tornado_scroll_demo.dart](lib/widget/tornado_scroll_demo.dart)
+	- 简短描述：炫酷的滚动与过渡动画列表示例。
+- 骚气粒子效果 — [lib/widget/particle_morphing_page.dart](lib/widget/particle_morphing_page.dart)
+	- 简短描述：粒子形态转换与 morph 动画示例。
