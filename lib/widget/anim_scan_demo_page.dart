@@ -1,5 +1,5 @@
-import 'dart:io';
 import 'dart:math' as Math;
+import 'package:flutter/foundation.dart';
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -153,17 +153,16 @@ class AnimScanPainter extends CustomPainter {
     backPaint.strokeWidth = 1;
 
     var colors = [
-      Colors.blueAccent[700],
+      Colors.blue.shade700,
       Colors.blue,
       const Color(0xFFFFF6F6),
       Colors.white,
     ];
 
-    var sweepGradient =
-        SweepGradient(colors: colors as List<Color>, stops: const [0, 0.001, 0.9, 1]);
+    var sweepGradient = SweepGradient(colors: colors, stops: const [0, 0.001, 0.9, 1]);
 
-    /// shader 暂不支持 web
-    if (Platform.isAndroid == true || Platform.isIOS == true) {
+    /// shader 在 web 上不可用，skip
+    if (!kIsWeb) {
       backPaint.shader = sweepGradient.createShader(Offset.zero & size);
     }
 

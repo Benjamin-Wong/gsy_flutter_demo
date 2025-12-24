@@ -18,7 +18,7 @@ class _LoadingAnimButtonState extends State<LoadingAnimButton>
   double currentRippleX = 0;
 
   late AnimationController loadingButtonController;
-  late Animation loadingAnimation;
+  late Animation<double> loadingAnimation;
 
   LoadingState loadingState = LoadingState.STATE_PRE;
 
@@ -49,7 +49,7 @@ class _LoadingAnimButtonState extends State<LoadingAnimButton>
   Widget build(BuildContext context) {
     return CustomPaint(
       painter: LoadingButtonPainter(
-          fraction: 1 - loadingAnimation.value as double,
+          fraction: 1 - loadingAnimation.value,
           currentState: widget.loadingState,
           currentRippleX: currentRippleX,
           loadingSpeed: widget.loadingSpeed,
